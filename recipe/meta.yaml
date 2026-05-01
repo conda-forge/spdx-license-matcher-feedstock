@@ -22,14 +22,14 @@ requirements:
     - python >=3
     - setuptools >=39.0.1
   run:
-    - wheel >=0.45.1
-    - click ==7.0
-    - jellyfish ==0.6.1
-    - jpype1 >=1.7.0
-    - python >=3
-    - python-dotenv >=0.17.1
     - redis-py ==4.4.4
-    - requests >=2.25
+    - requests =2.25
+    - jpype1 >=1.7.0
+    - jellyfish ==0.6.1
+    - click ==7.0
+    - python-dotenv >=0.17.1
+    - wheel >=0.45.1
+    - python >=3
 
 test:
   imports:
