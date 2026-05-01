@@ -22,7 +22,7 @@ requirements:
     - python >=3
     - setuptools >=39.0.1
   run:
-    - redis-py ==4.4.4
+    - redis-py ==4.4.5
     - requests =2.25
     - jpype1 >=1.7.0
     - jellyfish ==0.6.1
