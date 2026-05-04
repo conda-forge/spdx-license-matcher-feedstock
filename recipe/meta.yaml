@@ -25,7 +25,7 @@ requirements:
     - redis-py >=4.4.4,<4.6
     - requests =2.25
     - jpype1 >=1.7.0
-    - jellyfish ==0.6.1
+    - jellyfish >=0.6,<0.7
     - click ==7.0
     - python-dotenv >=0.17.1
     - wheel >=0.45.1
